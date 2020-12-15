@@ -26,6 +26,13 @@ h1, h2, h3, h4, h5, h6, body {
     margin: 10px 5px 20px 5px;
     padding-bottom: 20px;
 }
+#club-role {
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.team-list {
+    text-align: center;
+}
 .member-rounded-image {
     border-radius: 50%;
     width: 100px;

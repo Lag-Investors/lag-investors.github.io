@@ -15,17 +15,25 @@
         <script src="https://kit.fontawesome.com/a182b1aa5a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/resources/demos/style.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script>
             $( function() {
-              $( "#accordion" ).accordion();
+                $( "#accordion" ).accordion();
             } );
         </script>
     </head>
-    <body>  
-        <div id="club-title"> <p>Investor's <br> Club</p> </div>
-
-            <h1 id="team-title"> Our team. </h1> 
+    <body>
+        <div class="rellax" id="header" data-rellax-speed="-6" data-rellax-zindex="0">
+            <div id="header-background">
+                <div id="blurred-backdrop">
+                    <div id="club-header">
+                        <div id="club-title"> <p>Investor's Club</p></div>
+                        <p id="location">LaGuardia High School</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        <h1 id="team-title"> Our team. </h1> 
         <div class="team-list">
             <div class="member-card">
                 <div class="card-front">
@@ -40,43 +48,46 @@
             </div>
             <div class="member-card">
                 <div class="card-front">
-                <img class="member-rounded-image" src="assets/samsonprofile.png"/>
-                <h2 id="club-name">Samson Abrams</h2>
-                <p id="club-role">Co-President</p>
-                <a href="https://www.instagram.com/samson.abrams/" target="_blank"><i class="gg-instagram"></i></a>
-                <a href="#"><i class="gg-mail"></i></a>
+                    <img class="member-rounded-image" src="assets/samsonprofile.png"/>
+                    <h2 id="club-name">Samson Abrams</h2>
+                    <p id="club-role">Co-President</p>
+                    <a href="https://www.instagram.com/samson.abrams/" target="_blank"><i class="gg-instagram"></i></a>
+                    <a href="#"><i class="gg-mail"></i></a>
                 </div>
                 <div class="card-back"><h1>bababooey</h1></div>
             </div>
             <div class="member-card">
                 <div class="card-front">
-                <img class="member-rounded-image" src="assets/brendonprofile.jpg"/>
-                <h2 id="club-name">Brendon Chen</h2>
-                <p id="club-role">Co-President</p>
-                <a href="https://www.instagram.com/disbrendon/" target="_blank"><i class="gg-instagram"></i></a>
-                <a href="#"><i class="gg-mail"></i></a>
+                    <img class="member-rounded-image" src="assets/brendonprofile.jpg"/>
+                    <h2 id="club-name">Brendon Chen</h2>
+                    <p id="club-role">Co-President</p>
+                    <a href="https://www.instagram.com/disbrendon/" target="_blank"><i class="gg-instagram"></i></a>
+                    <a href="#"><i class="gg-mail"></i></a>
                 </div>
                 <div class="card-back"></div>
             </div>
             <br>
             <div class="member-card">
                 <div class="card-front">
-                <img class="member-rounded-image" src="assets/benicioprofile.jpg"/>
-                <h2 id="club-name">Benicio Franqui</h2>
-                <a href="https://www.instagram.com/beniciofranqui/" target="_blank"><i class="gg-instagram"></i></a>
-                <a href="mailto:benfrank26@icloud.com"><i class="gg-mail"></i></a>
+                    <img class="member-rounded-image" src="assets/benicioprofile.jpg"/>
+                    <h2 id="club-name">Benicio Franqui</h2>
+                    <a href="https://www.instagram.com/beniciofranqui/" target="_blank"><i class="gg-instagram"></i></a>
+                    <a href="mailto:benfrank26@icloud.com"><i class="gg-mail"></i></a>
                 </div>
                 <div class="card-back"></div>
             </div>
             <div class="member-card">
                 <div class="card-front">
-                <img class="member-rounded-image" src="assets/baiwenprofile.jpg"/>
-                <h2 id="club-name">Baiwen Zheng</h2>
-                <a href="https://www.instagram.com/baiwenzheng/" target="_blank"><i class="gg-instagram"></i></a>
-                <a href="#"><i class="gg-mail"></i></a>
+                    <img class="member-rounded-image" src="assets/baiwenprofile.jpg"/>
+                    <h2 id="club-name">Baiwen Zheng</h2>
+                    <a href="https://www.instagram.com/baiwenzheng/" target="_blank"><i class="gg-instagram"></i></a>
+                    <a href="#"><i class="gg-mail"></i></a>
                 </div>
                 <div class="card-back"></div>
             </div>
         </div>
+        </div>
+        <script src="rellax.min.js"></script>
+        <script src="index.js"></script>
     </body>
-</html>
+    </html>

@@ -37,16 +37,63 @@ h1, h2, h3, h4, h5, h6, body {
                         
 */
 
+body {
+    margin: 0;
+}
+.content {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+
+#header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+}
+
+#header-background {
+    width: 100%;
+    height: 100vh;
+    background-image:url('/assets/investorsclubbanner.jpeg');
+    background-size: cover;
+}
+
+#blurred-backdrop {
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
 #club-title {
-    font-size: 80px;
+    font-size: 90px;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-weight: 450;
-    color: #d16666;
-    line-height: 85px;
+    font-weight: 600;
+    color: #d3d0cb;
+}
+#location {
+    padding-top: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: #d3d0cb;
+    margin-top: -100px;
+    margin-bottom: 200px;
+    backdrop-filter: blur(2px);
 }
 #club-title:before,
 #club-title:after {
@@ -74,6 +121,7 @@ _____                      _     _     _
 #team-title {
     text-align: center;
     color: #2c4251;
+    z-index: 10;
 }
 #title-underline {
     fill:#768948;
@@ -83,10 +131,12 @@ _____                      _     _     _
     height: 50px;
     display: block;
     margin: auto;
+    z-index: 10;
 }
 
 .team-list {
     text-align: center;
+    z-index: 10;
 }
 /*
  _____               _     
@@ -121,6 +171,7 @@ _____                      _     _     _
     margin: 10px 5px 20px 5px;
     padding-bottom: 20px;
     background-color: rgb(243, 242, 242);
+    z-index: 10;
 }
 /*
 THIS IS JUST EXPERIMENTAL STUFF DW ABT IT

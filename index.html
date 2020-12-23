@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
         <title>Lag Investors Club</title>
         <meta name="description" content="Lag Investors Club">
         <link rel="stylesheet" href="/index.css">
@@ -11,83 +11,107 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
         <link href='https://css.gg/instagram.css' rel='stylesheet'>
         <link href='https://css.gg/mail.css' rel='stylesheet'>
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
         <script src="https://kit.fontawesome.com/a182b1aa5a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/resources/demos/style.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script>
-            $( function() {
-                $( "#accordion" ).accordion();
-            } );
-        </script>
     </head>
     <body>
-        <div class="rellax" id="header" data-rellax-speed="-6" data-rellax-zindex="0">
-            <div id="header-background">
-                <div id="blurred-backdrop">
-                    <div id="club-header">
-                        <div id="club-title"> <p>Investor's Club</p></div>
-                        <p id="location">LaGuardia High School</p>
+        <div data-scrollbar>
+            <div class="rellax" id="header" data-rellax-speed="-4" data-rellax-zindex="0">
+                <div id="header-background">
+                    <div id="blurred-backdrop">
+                        <div id="club-header">
+                            <div id="club-title"> <p>Investor's Club</p></div>
+                            <p id="location">LaGuardia High School</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="content">
-        <h1 id="team-title"> Our team. </h1> 
-        <div class="team-list">
-            <div class="member-card">
-                <div class="card-front">
-                    <img class="member-rounded-image" src="assets/paulprofile.jpg"/>
-                    <h2 id="club-name">Paul Dong </h2>                 
-                    <p id="club-role">Co-President <!-- <i id="plus-icon" class="fas fa-plus"></i> --> </p>
-                    <a href="https://www.instagram.com/paul_dong_/" target="_blank"><i class="gg-instagram"></i></a>
-                    <a href="#"><i class="gg-mail"></i></a>
+            <div class="content">
+                <div class="about-us" data-aos="zoom-out">
+                    <h1 id="about-us-title" >About us.</h1>
+                    <p>According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyways. Because bees don't care what humans think is impossible.</p>
                 </div>
-                <div class="card-back">
+                <!-- maybe i'll do relax later idk <div class="rellax" id="header" data-rellax-speed="-6" data-rellax-zindex="0"> -->
+                    <div class="lessons" >
+                        <div class="lessons-background">
+                            <h1 data-aos="zoom-out">Our lessons.</h1>
+                            <p data-aos="zoom-out">Click <a href="lessons.html" target="_blank"><B>HERE</B></a> <br>to find all of our lessons</p>
+                        </div>
+                    </div>
+                    <h1 id="team-title" data-aos="zoom-out"> Our team. </h1> 
+                    <div class="team-list" data-aos="zoom-in-up">
+                        <div class="member-card">
+                            <div class="card-front">
+                                <img class="member-rounded-image" src="assets/paulprofile.jpg"/>
+                                <h2 id="club-name">Paul Dong </h2>                 
+                                <p id="club-role">Co-President <br> Teacher <!-- <i id="plus-icon" class="fas fa-plus"></i> --> </p>
+                                <a href="https://www.instagram.com/paul_dong_/" target="_blank"><i class="gg-instagram"></i></a>
+                                <a href="#"><i class="gg-mail"></i></a>
+                            </div>
+                            <div class="card-back">
+                            </div>
+                        </div>
+                        <div class="member-card">
+                            <div class="card-front">
+                                <img class="member-rounded-image" src="assets/samsonprofile.png"/>
+                                <h2 id="club-name">Samson Abrams</h2>
+                                <p id="club-role">Co-President <br> Teacher</p>
+                                <a href="https://www.instagram.com/samson.abrams/" target="_blank"><i class="gg-instagram"></i></a>
+                                <a href="#"><i class="gg-mail"></i></a>
+                            </div>
+                            <div class="card-back"><h1>bababooey</h1></div>
+                        </div>
+                        <div class="member-card">
+                            <div class="card-front">
+                                <img class="member-rounded-image" src="assets/brendonprofile.jpg"/>
+                                <h2 id="club-name">Brendon Chen</h2>
+                                <p id="club-role">Co-President <br> Teacher</p>
+                                <a href="https://www.instagram.com/disbrendon/" target="_blank"><i class="gg-instagram"></i></a>
+                                <a href="#"><i class="gg-mail"></i></a>
+                            </div>
+                            <div class="card-back"></div>
+                        </div>
+                        <br>
+                        <div class="member-card">
+                            <div class="card-front">
+                                <img class="member-rounded-image" src="assets/benicioprofile.jpg"/>
+                                <h2 id="club-name">Benicio Franqui</h2>
+                                <p id="club-role">Teacher</p>
+                                <a href="https://www.instagram.com/beniciofranqui/" target="_blank"><i class="gg-instagram"></i></a>
+                                <a href="mailto:benfrank26@icloud.com"><i class="gg-mail"></i></a>
+                            </div>
+                            <div class="card-back"></div>
+                        </div>
+                        <div class="member-card">
+                            <div class="card-front">
+                                <img class="member-rounded-image" src="assets/baiwenprofile.jpg"/>
+                                <h2 id="club-name">Baiwen Zheng</h2>
+                                <p id="club-role">Teacher</p>
+                                <a href="https://www.instagram.com/baiwenzheng/" target="_blank"><i class="gg-instagram"></i></a>
+                                <a href="#"><i class="gg-mail"></i></a>
+                            </div>
+                            <div class="card-back"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="member-card">
-                <div class="card-front">
-                    <img class="member-rounded-image" src="assets/samsonprofile.png"/>
-                    <h2 id="club-name">Samson Abrams</h2>
-                    <p id="club-role">Co-President</p>
-                    <a href="https://www.instagram.com/samson.abrams/" target="_blank"><i class="gg-instagram"></i></a>
-                    <a href="#"><i class="gg-mail"></i></a>
-                </div>
-                <div class="card-back"><h1>bababooey</h1></div>
-            </div>
-            <div class="member-card">
-                <div class="card-front">
-                    <img class="member-rounded-image" src="assets/brendonprofile.jpg"/>
-                    <h2 id="club-name">Brendon Chen</h2>
-                    <p id="club-role">Co-President</p>
-                    <a href="https://www.instagram.com/disbrendon/" target="_blank"><i class="gg-instagram"></i></a>
-                    <a href="#"><i class="gg-mail"></i></a>
-                </div>
-                <div class="card-back"></div>
-            </div>
-            <br>
-            <div class="member-card">
-                <div class="card-front">
-                    <img class="member-rounded-image" src="assets/benicioprofile.jpg"/>
-                    <h2 id="club-name">Benicio Franqui</h2>
-                    <a href="https://www.instagram.com/beniciofranqui/" target="_blank"><i class="gg-instagram"></i></a>
-                    <a href="mailto:benfrank26@icloud.com"><i class="gg-mail"></i></a>
-                </div>
-                <div class="card-back"></div>
-            </div>
-            <div class="member-card">
-                <div class="card-front">
-                    <img class="member-rounded-image" src="assets/baiwenprofile.jpg"/>
-                    <h2 id="club-name">Baiwen Zheng</h2>
-                    <a href="https://www.instagram.com/baiwenzheng/" target="_blank"><i class="gg-instagram"></i></a>
-                    <a href="#"><i class="gg-mail"></i></a>
-                </div>
-                <div class="card-back"></div>
-            </div>
-        </div>
         </div>
         <script src="rellax.min.js"></script>
         <script src="index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    <!-- I may do smooth scrolling later lol
+        <script src="dist/smooth-scrollbar.js"></script>
+        <script>
+          var Scrollbar = window.Scrollbar;
+        
+          Scrollbar.init(document.querySelector('#my-scrollbar'), options);
+        </script>
+        <script> Scrollbar.initAll(); </script>
+    -->
     </body>
-    </html>
+</html>

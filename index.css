@@ -182,13 +182,54 @@ body {
     padding-top: 10px;
 }
 .resources {
-    height: 20vh;
+    height: 600px;
     width: 100%;
     background-color: #2c4251;
+    position: relative;
 }
-
+.resources h1 {
+    color: #d3d0cb;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.links  {
+    font-size: 30px; 
+    margin-top: 40px;
+    display: block;
+    margin-left: 20vw;
+    position: absolute;
+}
+.links h3 {
+    color: #d3d0cb;
+    padding-top: 40px;
+    position: relative;
+}
+.links h3 a {
+    text-decoration: none;
+    color: #d3d0cb;
+    position: absolute;
+}
+.links h3 a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #d3d0cb;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.links h3 a:hover:before {
+    visibility: visible;
+    width: 100%;
+}
 /*
-_____                      _     _     _   
+ _____                      _     _     _   
 |_   _|                    | |   (_)   | |  
   | | ___  __ _ _ __ ___   | |    _ ___| |_ 
   | |/ _ \/ _` | '_ ` _ \  | |   | / __| __|
@@ -303,7 +344,6 @@ THIS IS JUST EXPERIMENTAL STUFF DW ABT IT
 */
 
 ::-webkit-scrollbar {
-    width: 9px;
     overflow: hidden;
     display: none;
 }

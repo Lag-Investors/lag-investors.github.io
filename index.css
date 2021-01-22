@@ -347,3 +347,54 @@ THIS IS JUST EXPERIMENTAL STUFF DW ABT IT
     overflow: hidden;
     display: none;
 }
+
+/*
+ _   _ _     _                
+| | | (_)   | |               
+| | | |_  __| | ___  ___  ___ 
+| | | | |/ _` |/ _ \/ _ \/ __|
+\ \_/ / | (_| |  __/ (_) \__ \
+ \___/|_|\__,_|\___|\___/|___/
+                        
+ */
+
+ .video-list {
+     position: relative;
+     background-color: white;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+}
+
+.video-title {
+    margin-top: 50px;
+}
+
+#home-back-link {
+    text-decoration: none;
+    color:#d3d0cb;
+}
+
+.video-list a {
+    text-decoration: none;
+    color: #2C4251;
+    position: relative;
+}
+.video-list a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    background-color: #0e0c0b;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.video-list a:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+.video-list a:hover {
+    color: #778997;
+    transition: all 0.2s ease-in-out;
+}

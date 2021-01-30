@@ -357,7 +357,22 @@ THIS IS JUST EXPERIMENTAL STUFF DW ABT IT
  \___/|_|\__,_|\___|\___/|___/
                         
  */
-
+.disclaimer {
+    background-color: #d3d0cb;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 400px;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-right: 400px;
+}
+.disclaimer:hover {
+    transition: 0.4s;
+    box-shadow: 5px 4px 15px #afada9;
+}
  .video-list {
      position: relative;
      background-color: white;

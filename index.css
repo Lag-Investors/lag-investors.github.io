@@ -359,6 +359,8 @@ THIS IS JUST EXPERIMENTAL STUFF DW ABT IT
  */
 .school-year-conclusion{
     text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 .disclaimer {
     background-color: #d3d0cb;
